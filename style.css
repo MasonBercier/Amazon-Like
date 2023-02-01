@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .page{
     text-align: center;
     flex-direction: column;
-    border: 1px solid black;
+    border: 0.5px solid black;
 }
 
 img{
@@ -22,10 +23,12 @@ img{
 
 .email-form{
     width: 20%;
+    padding: 5px;
 }
 
 .password-form{
     width: 20%;
+    padding: 6px;
 }
 
 .forgot{
@@ -37,6 +40,7 @@ img{
 
 .help{
     color: blue;
+    padding: 15px;
 }
 
 .create{
@@ -46,8 +50,9 @@ img{
 
 .continue{
     width: 20%;
-    background-color: rgba(255, 230, 0, 0.829);
-    font-size: 14px;
+    background-color: rgba(250, 223, 70, 0.952);
+    font-size: 16px;
+    padding: 8px 10px;
 }
 
 .help-links{
@@ -65,9 +70,14 @@ img{
 .new{
     text-align: center;
     flex-direction: column;
+    color: grey;
 }
 
 .foot{
     text-align: center;
+    font-size: 14px;
 }
 
+p{
+    padding: 15px;
+}
